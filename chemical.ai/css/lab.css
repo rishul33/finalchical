@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* lab实验室 */
+.chemLab {
+  display: none;
+}
+
+.chemLab .features:hover {
+  background-color: #2ab989;
+}
+
+.chemLab .features:hover .lab-icon {
+  background-image: url("../../www-static.chemicalai.cn/assets/images/lab-icon1-hover.png_%3b%20filename_%3dutf-8%27%27lab-icon1-hover.png");
+}
+
+.chemLab .features:hover .lab-icon2 {
+  background-image: url("../../www-static.chemicalai.cn/assets/images/lab-icon4-hover.png_%3b%20filename_%3dutf-8%27%27lab-icon4-hover.png");
+}
+
+.chemLab .features:hover .lab-icon3 {
+  background-image: url("../../www-static.chemicalai.cn/assets/images/lab-icon2-hover.png_%3b%20filename_%3dutf-8%27%27lab-icon2-hover.png");
+}
+
+.chemLab .features:hover .lab-icon4 {
+  background-image: url("../../www-static.chemicalai.cn/assets/images/lab-icon3-hover.png_%3b%20filename_%3dutf-8%27%27lab-icon3-hover.png");
+}
+
+.chemLab .features .lab-icon {
+  background-image: url("../../www-static.chemicalai.cn/assets/images/lab-icon1.png_%3b%20filename_%3dutf-8%27%27lab-icon1.png");
+}
+
+.chemLab .features .lab-icon2 {
+  background-image: url("../../www-static.chemicalai.cn/assets/images/lab-icon4.png_%3b%20filename_%3dutf-8%27%27lab-icon4.png");
+}
+
+.chemLab .features .lab-icon3 {
+  background-image: url("../../www-static.chemicalai.cn/assets/images/lab-icon2.png_%3b%20filename_%3dutf-8%27%27lab-icon2.png");
+}
+
+.chemLab .features .lab-icon4 {
+  background-image: url("../../www-static.chemicalai.cn/assets/images/lab-icon3.png_%3b%20filename_%3dutf-8%27%27lab-icon3.png");
+}
+
+.change-tab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.change-tab div {
+  height: 50px;
+  line-height: 50px;
+  margin: 0 40px 50px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.change-tab div.active {
+  color: #2ab989;
+  border-bottom: 4px solid #2ab989;
+}
+
+.chemAirs .center-title .title {
+  padding-bottom: 0;
+}
+
+.feature-bg .container .jump-lab-button {
+  display: block;
+  width: 145px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #ff8a42;
+  border-radius: 20px;
+  margin: 70px auto 0;
+  text-align: center;
+  color: #ff8a42;
+  cursor: pointer;
+}
+
+.feature-bg .container .jump-lab-button:hover {
+  color: #ff8a42;
+}
+
+@media (max-width: 768px) {
+  .iocn-bg .feature-iocn-bg-img {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media (max-width: 576px) {
+  .iocn-bg .feature-iocn-bg-img {
+    width: 83px;
+    height: 83px;
+  }
+}
+/*# sourceMappingURL=lab.css.map */

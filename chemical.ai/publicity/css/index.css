@@ -1,0 +1,546 @@
+html,
+body,
+div,
+span,
+a,
+p,
+img {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  pointer-events: none;
+}
+
+.main, .tabs {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main > .title, .tabs > .title {
+  text-align: center;
+  color: #4e4d56;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.main > .title.mt--18, .tabs > .title.mt--18 {
+  margin-top: -18px;
+}
+
+.main > .title .green, .tabs > .title .green {
+  color: #66cfa9;
+}
+
+body {
+  background-color: #f0f7fe;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 841px;
+  background: url("../../../www-static.chemicalai.cn/publicity/images/banner.png_%3b%20filename_%3dutf-8%27%27banner.png") 0 0/cover no-repeat;
+  background-position: center;
+}
+
+.banner .main, .banner .tabs {
+  position: relative;
+  height: 100%;
+}
+
+.banner .main .logo, .banner .tabs .logo {
+  position: absolute;
+  top: 52px;
+  left: 0;
+  width: 169px;
+  height: 71px;
+}
+
+.banner .main .title, .banner .tabs .title {
+  position: absolute;
+  top: 190px;
+  left: 0;
+  width: 910px;
+  line-height: 90px;
+  font-size: 64px;
+  font-weight: normal;
+  color: #fff;
+  text-align: left;
+  font-family: IBM Plex Sans;
+}
+
+.banner .main .tips, .banner .tabs .tips {
+  position: absolute;
+  top: 392px;
+  left: 0;
+  line-height: 32px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.banner .main .try-free, .banner .tabs .try-free {
+  position: absolute;
+  left: 10px;
+  bottom: 166px;
+  width: 300px;
+  height: 81px;
+  line-height: 81px;
+  background: -webkit-gradient(linear, right top, left top, from(#2ab989), to(#66cfa9));
+  background: linear-gradient(-90deg, #2ab989, #66cfa9);
+  border-radius: 40px;
+  font-size: 28px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.banner .main .topic, .banner .tabs .topic {
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1200px;
+  height: 112px;
+  line-height: 112px;
+  padding: 0 80px;
+  border-radius: 56px;
+  margin-top: 60px;
+  background-color: #fff;
+  font-size: 24px;
+}
+
+.banner .main .topic .topic-l, .banner .tabs .topic .topic-l {
+  color: #4e4d56;
+}
+
+.banner .main .topic .topic-l .bold, .banner .tabs .topic .topic-l .bold {
+  font-weight: bold;
+}
+
+.banner .main .topic .topic-r, .banner .tabs .topic .topic-r {
+  color: #4b83fc;
+}
+
+.tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 78px auto 120px;
+}
+
+.tabs > div {
+  width: 270px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 40px;
+  color: #4e4d56;
+  text-align: center;
+  font-weight: bold;
+  background-color: #d9e9fe;
+  cursor: pointer;
+}
+
+.tabs > div.active {
+  background-color: #66cfa9;
+  color: #fff;
+}
+
+.content .news1 .summary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.content .news1 .summary .summary-l {
+  position: relative;
+  width: 598px;
+  height: 606px;
+}
+
+.content .news1 .summary .summary-l .atom {
+  width: 589px;
+  height: 545px;
+}
+
+.content .news1 .summary .summary-l .arrow01 {
+  position: absolute;
+  top: 31px;
+  left: 0;
+  width: 17px;
+  height: 98px;
+}
+
+.content .news1 .summary .summary-l .arrow02 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 15px;
+  height: 86px;
+}
+
+.content .news1 .summary .summary-r {
+  position: relative;
+  width: 513px;
+  height: 360px;
+  padding: 45px 60px;
+  -webkit-box-shadow: 0px 3px 12px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 3px 12px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 59px 59px 59px;
+  margin-top: 56px;
+  background-color: #fff;
+}
+
+.content .news1 .summary .summary-r .summary-item {
+  margin-bottom: 20px;
+}
+
+.content .news1 .summary .summary-r .summary-item .summary-title {
+  line-height: 43px;
+  font-size: 24px;
+  color: #66cfa9;
+}
+
+.content .news1 .summary .summary-r .summary-item .summary-msg {
+  line-height: 25px;
+  font-size: 16px;
+  color: #333;
+}
+
+.content .news1 .summary .summary-r .summary-item .summary-msg .black {
+  color: #000;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+.content .news1 .summary .summary-r .summary-item .summary-msg .green {
+  color: #66cfa9;
+  cursor: pointer;
+}
+
+.content .news1 .activity {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content .news1 .activity .activity-l {
+  position: relative;
+}
+
+.content .news1 .activity .activity-l .title {
+  position: relative;
+}
+
+.content .news1 .activity .activity-l .title p {
+  font-size: 24px;
+  color: #66cfa9;
+}
+
+.content .news1 .activity .activity-l .title img {
+  position: absolute;
+  top: -30px;
+  left: 204px;
+  width: 41px;
+  height: 41px;
+}
+
+.content .news1 .activity .activity-l .list .item {
+  position: relative;
+  width: 514px;
+  padding: 30px 40px 30px 80px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 3px 12px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 3px 12px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 59px 59px 59px;
+  margin-top: 30px;
+}
+
+.content .news1 .activity .activity-l .list .item .number {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #66cfa9;
+}
+
+.content .news1 .activity .activity-l .list .item .msg {
+  line-height: 22px;
+  font-size: 16px;
+  color: #333;
+}
+
+.content .news1 .activity .activity-l .dot {
+  position: absolute;
+  right: 0;
+  bottom: -45px;
+}
+
+.content .news1 .activity .activity-r {
+  position: relative;
+  margin-top: 157px;
+}
+
+.content .news1 .activity .activity-r .atom {
+  width: 589px;
+  height: 545px;
+  margin-left: 96px;
+}
+
+.content .news1 .activity .activity-r .circle {
+  position: absolute;
+  right: 0;
+  bottom: 18px;
+  width: 90px;
+  height: 90px;
+}
+
+.content .news1 .contact {
+  position: relative;
+}
+
+.content .news1 .contact .contact-l {
+  position: relative;
+  z-index: 2;
+  height: 328px;
+  font-size: 26px;
+  background: url("../../../www-static.chemicalai.cn/publicity/images/contact-l.png_%3b%20filename_%3dutf-8%27%27contact-l.png") 0 0/cover no-repeat;
+  overflow: hidden;
+  margin: 122px 0 218px 0;
+}
+
+.content .news1 .contact .contact-l .info {
+  margin: 117px 0 26px 360px;
+  color: #fff;
+}
+
+.content .news1 .contact .contact-l .url {
+  margin-left: 360px;
+  color: #66cfa9;
+}
+
+.content .news1 .contact .contact-r {
+  position: absolute;
+  top: 107px;
+  right: 0;
+  width: 1041px;
+  height: 328px;
+}
+
+.content .news2 {
+  display: none;
+  margin-top: -40px;
+}
+
+.content .news2 .notice {
+  width: 1209px;
+  height: 1177px;
+  margin: 0 0 80px -4px;
+}
+
+.content .news2 .flag-wrapper {
+  position: relative;
+  padding: 62px 110px 0;
+}
+
+.content .news2 .flag-wrapper .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content .news2 .flag-wrapper .list img {
+  width: 302px;
+  height: 448px;
+}
+
+.content .news2 .flag-wrapper .circle {
+  position: absolute;
+  top: 5px;
+  right: 33px;
+}
+
+.content .news2 .flag-wrapper .dot {
+  position: absolute;
+  left: 10px;
+  bottom: -8px;
+}
+
+.content .news2 .barGraph {
+  width: 1412px;
+  height: 696px;
+  margin: 0 0 45px -106px;
+}
+
+.content .news2 .message {
+  margin: 0 0 76px -15px;
+}
+
+.content .news3 {
+  display: none;
+  margin-top: -40px;
+}
+
+.content .news3 .description {
+  line-height: 50px;
+  font-size: 28px;
+  color: #333;
+  margin: 80px 0 40px;
+}
+
+.content .news3 .case-wrapper {
+  position: relative;
+  width: 1378px;
+  height: 927px;
+  margin: 0 0 50px -89px;
+}
+
+.content .news3 .case-wrapper.case2 .title1 {
+  top: 230px;
+}
+
+.content .news3 .case-wrapper.case2 .chemAIRS {
+  top: 216px;
+  height: 314px;
+}
+
+.content .news3 .case-wrapper.case2 .title2 {
+  top: 554px;
+}
+
+.content .news3 .case-wrapper.case2 .chemist {
+  top: 540px;
+}
+
+.content .news3 .case-wrapper.case3 {
+  height: 985px;
+}
+
+.content .news3 .case-wrapper.case3 .title1 {
+  top: 280px;
+}
+
+.content .news3 .case-wrapper.case3 .chemAIRS {
+  top: 280px;
+  height: 327px;
+}
+
+.content .news3 .case-wrapper.case3 .title2 {
+  top: 640px;
+}
+
+.content .news3 .case-wrapper.case3 .chemist {
+  top: 660px;
+  height: 320px;
+}
+
+.content .news3 .case-wrapper .title1,
+.content .news3 .case-wrapper .title2 {
+  position: absolute;
+  top: 240px;
+  left: 260px;
+  width: 1024px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #4e4d56;
+}
+
+.content .news3 .case-wrapper .title2 {
+  top: 574px;
+}
+
+.content .news3 .case-wrapper .chemAIRS {
+  position: absolute;
+  top: 226px;
+  left: 260px;
+  width: 1024px;
+  height: 314px;
+}
+
+.content .news3 .case-wrapper .chemist {
+  position: absolute;
+  top: 560px;
+  left: 260px;
+  width: 1024px;
+  height: 314px;
+}
+
+.content .news4 {
+  display: none;
+  text-align: center;
+}
+
+.content .news4 img {
+  margin-bottom: 88px;
+}
+
+.footer {
+  height: 99px;
+  line-height: 99px;
+  background: url("../../../www-static.chemicalai.cn/publicity/images/footer.png_%3b%20filename_%3dutf-8%27%27footer.png") 0 0/cover no-repeat;
+}
+
+.footer .main, .footer .tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .main .footer-l, .footer .tabs .footer-l {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 310px;
+}
+
+.footer .main .footer-l .company-name, .footer .tabs .footer-l .company-name {
+  width: 146px;
+  height: 18px;
+}
+
+.footer .main .footer-l .separator, .footer .tabs .footer-l .separator {
+  width: 1px;
+  height: 20px;
+  background-color: #fff;
+}
+
+.footer .main .footer-l .company-logo, .footer .tabs .footer-l .company-logo {
+  width: 131px;
+  height: 56px;
+}
+
+.footer .main .footer-r, .footer .tabs .footer-r {
+  color: #e8e8e8;
+}
+/*# sourceMappingURL=index.css.map */
